@@ -1,0 +1,76 @@
+/* App.css */
+
+body{
+  background-color: #1f1f2e; /* Dark blue background color */
+}
+/* Center the page */
+.container {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full viewport height */
+  color: #ffffff; /* Light text color */
+  font-family: 'Poppins', sans-serif; /* Use Poppins font */
+}
+
+/* Form container */
+.form-container {
+  width: 300px; /* Reduced width for better visibility */
+  padding: 20px;
+  margin-bottom: 20px; /* Add margin at the bottom to create space for the business card */
+  border-radius: 8px;
+  background-color: #2a2a3c; /* Dark blue background color */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Slightly darker shadow effect */
+}
+
+/* Input fields and button */
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container input[type="email"],
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #4f4f68; /* Darker border color */
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #3a3a4f; /* Dark blue color for input fields */
+  color: #ffffff; /* Light text color */
+  font-family: 'Poppins', sans-serif; /* Use Poppins font */
+}
+
+/* Button */
+.form-container button {
+  background-color: #00c2ff; /* Neon blue button */
+  border: none;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #00b2e6; /* Slightly darker blue on hover */
+}
+
+/* Business card container */
+.businesscard {
+  width: 300px; /* Same width as form container */
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #2a2a3c; /* Dark blue background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slightly darker shadow effect */
+}
+
+.businesscard span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.businesscard span:last-child {
+  margin-bottom: 0;
+}
+
+/* Error message */
+.error {
+  color: #ff0000; /* Red color for error message */
+  margin-top: 10px; /* Add margin to separate from form fields */
+}
